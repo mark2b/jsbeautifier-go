@@ -51,7 +51,7 @@ var punct = strings.Split("+ - * / % & ++ -- = += -= *= /= %= == === != !== > < 
 
 var line_starters = strings.Split("continue,try,throw,return,var,let,const,if,switch,case,default,for,while,break,function,yield,import,export", ",")
 
-var reserved_words = append(line_starters, []string{"do", "in", "else", "get", "set", "new", "catch", "finally", "typeof"}...)
+var reserved_words = append(line_starters, []string{"async", "await", "do", "in", "else", "get", "set", "new", "catch", "finally", "typeof"}...)
 
 func (self *tokenizer) Tokenize() chan Token {
 	tkch := make(chan Token)
