@@ -3,11 +3,10 @@ package main
 import (
 	"fmt"
 	"io/ioutil"
+	"jsbeautifier-go/jsbeautifier"
 	"strconv"
 
 	"github.com/flynn/go-docopt"
-
-	"jsbeautifier-go/jsbeautifier"
 )
 
 // Copyright (c) 2014 Ditashi Sayomi

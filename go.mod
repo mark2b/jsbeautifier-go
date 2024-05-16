@@ -1,4 +1,4 @@
-module github.com/mark2b/jsbeautifier-go
+module jsbeautifier-go
 
 go 1.21.1
 
