@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
+	"github.com/mark2b/jsbeautifier-go/jsbeautifier"
 	"io/ioutil"
-	"jsbeautifier-go/jsbeautifier"
 	"strconv"
 
 	"github.com/flynn/go-docopt"

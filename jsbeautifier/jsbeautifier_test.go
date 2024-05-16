@@ -3,7 +3,7 @@ package jsbeautifier
 import (
 	"testing"
 
-	"jsbeautifier-go/optargs"
+	"github.com/mark2b/jsbeautifier-go/optargs"
 )
 
 // Copyright (c) 2014 Ditashi Sayomi

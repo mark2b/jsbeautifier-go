@@ -5,10 +5,10 @@ import (
 	"io/ioutil"
 	"strings"
 
-	"jsbeautifier-go/optargs"
-	"jsbeautifier-go/tokenizer"
-	"jsbeautifier-go/unpackers"
-	"jsbeautifier-go/utils"
+	"github.com/mark2b/jsbeautifier-go/optargs"
+	"github.com/mark2b/jsbeautifier-go/tokenizer"
+	"github.com/mark2b/jsbeautifier-go/unpackers"
+	"github.com/mark2b/jsbeautifier-go/utils"
 )
 
 // Copyright (c) 2014 Ditashi Sayomi

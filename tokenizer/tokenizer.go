@@ -6,8 +6,8 @@ import (
 	"strings"
 	"unicode/utf8"
 
-	"jsbeautifier-go/optargs"
-	"jsbeautifier-go/utils"
+	"github.com/mark2b/jsbeautifier-go/optargs"
+	"github.com/mark2b/jsbeautifier-go/utils"
 )
 
 // Copyright (c) 2014 Ditashi Sayomi
