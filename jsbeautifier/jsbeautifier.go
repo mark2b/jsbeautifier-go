@@ -553,7 +553,7 @@ func (self *jsbeautifier) handle_word(current_token *tokenizer.Token) {
 		}
 
 		if self.last_type == "TK_RESERVED" || self.last_type == "TK_WORD" {
-			if self.last_type == "TK_RESERVED" && utils.InStrArray(self.flags.last_text, []string{"get", "set", "new", "return", "export"}) {
+			if self.last_type == "TK_RESERVED" && utils.InStrArray(self.flags.last_text, []string{"async", "await", "get", "set", "new", "return", "export"}) {
 				self.output.space_before_token = true
 			} else if self.last_type == "TK_RESERVED" && self.flags.last_text == "default" && self.last_last_text == "export" {
 				self.output.space_before_token = true
