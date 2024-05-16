@@ -5,10 +5,10 @@ import (
 	"io/ioutil"
 	"strings"
 
-	"github.com/ditashi/jsbeautifier-go/optargs"
-	"github.com/ditashi/jsbeautifier-go/tokenizer"
-	"github.com/ditashi/jsbeautifier-go/unpackers"
-	"github.com/ditashi/jsbeautifier-go/utils"
+	"jsbeautifier-go/optargs"
+	"jsbeautifier-go/tokenizer"
+	"jsbeautifier-go/unpackers"
+	"jsbeautifier-go/utils"
 )
 
 // Copyright (c) 2014 Ditashi Sayomi
@@ -32,13 +32,13 @@ import (
 // SOFTWARE.
 
 var default_options = map[string]interface{}{
-	"indent_size":           4,
-	"indent_char":           " ",
-	"indent_with_tabs":      false,
-	"preserve_newlines":     true,
-	"max_preserve_newlines": 10,
-	"space_in_paren":        false,
-	"space_in_empty_paren":  false,
+	"indent_size":               4,
+	"indent_char":               " ",
+	"indent_with_tabs":          false,
+	"preserve_newlines":         true,
+	"max_preserve_newlines":     10,
+	"space_in_paren":            false,
+	"space_in_empty_paren":      false,
 	"e4x":                       false,
 	"jslint_happy":              false,
 	"space_after_anon_function": false,

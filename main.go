@@ -7,7 +7,7 @@ import (
 
 	"github.com/flynn/go-docopt"
 
-	"github.com/ditashi/jsbeautifier-go/jsbeautifier"
+	"jsbeautifier-go/jsbeautifier"
 )
 
 // Copyright (c) 2014 Ditashi Sayomi
