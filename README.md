@@ -21,7 +21,7 @@ Implemented most of the original features from jsbeautifier (missing features ar
 2. Unpacking & Deobfuscation
 
 ## Usage
-``` go get && go run main.go test.js ```
+``` go get && go run main/main.go test.js ```
 
 ### Testing
 From within the source folder run:
